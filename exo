@@ -1,0 +1,18 @@
+<?php
+
+$films = [
+    "Les Aventuriers de l'arche perdue" => ["Harrison Ford" , "Marion Ravenwood" , "René Émile Belloq"],
+    "Et le temple maudit" => ["Harrison Ford" , "Willie Scott" , "Demi Lune"],
+    "Et le cadran de la destinée" => ["Harrison Ford" , "Jürgen Voller" , "Helena Shaw"]
+
+];
+
+foreach ($films as $key => $acteur_N) {
+echo "Dans le film $key, les principaux acteurs sont : <br>" ;
+foreach (
+    $films [$key] as $acteur_N) {
+        echo "$acteur_N <br>";
+    }
+
+
+}
